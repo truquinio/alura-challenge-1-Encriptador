@@ -1,4 +1,4 @@
-#portafolio
+<h1>#Encriptador de Textos</h1>
 
 • Visita mi <a href="https://github.com/truquinio/alura-challenge-1-Encriptador">repositorio</a> 🗃
 
@@ -6,7 +6,7 @@
 
 • Mi perfil de <a href="https://www.linkedin.com/in/federico-trucco/">LinkedIn</a> 🪪
 
-🔐 Aplicación que encripta textos, para intercambiar mensajes secretos con otras personas que sepan el código utilizado.
+<h2>🔐 Aplicación que encripta textos, para intercambiar mensajes secretos con otras personas que sepan el código utilizado.</h2>
 
 - Es posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 - El resultado se muestra en la pantalla.
