@@ -1,0 +1,1137 @@
+* {
+  box-sizing: border-box;
+  height: 1vh;
+
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  display: block;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
+
+  background: #D0E4F5 url("./img/wallpaper-blur.png") repeat;
+  font-weight: 400px;
+}
+
+
+
+/*    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CONTENEDOR  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.container {
+  margin: 1% auto 1% auto;
+  width: 960px;
+  height: 680px;
+  padding: 5px;
+
+  background: #D0E4F5 url("./img/wallpaper.png");
+  /* background: #00ffee; */
+
+  border-radius: 45px;
+
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+}
+
+.logotipo {
+  position: relative;
+
+  width: 69%;
+  height: auto;
+
+  float: left;
+
+  background: transparent;
+}
+
+.logo {
+  width: 12%;
+  height: 12%;
+
+  margin: 7% 0 1% 10%;
+}
+
+
+
+/*  INFORMACIÓN   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.informacion {
+  position: relative;
+  top: -10px;
+
+  float: left;
+
+  width: 100%;
+  height: auto;
+  padding: 0.5% 0 0.5% 0;
+
+  margin: 2% 0 2% 0;
+
+  background: transparent;
+}
+
+.informacion img {
+  float: left;
+
+  width: 18px;
+  height: 18px;
+
+  margin: 1% 2% 1% 13.5%;
+}
+
+.informacion text {
+  float: left;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
+  margin: 1.5% 2% 1% 0;
+}
+
+
+
+/*    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  LADO IZQUIERDO  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.leftBox {
+  float: left;
+
+  width: 69%;
+  height: auto;
+
+  background: transparent;
+  /* background: red; */
+}
+
+.input {
+  width: 95%;
+  height: 425px;
+
+  margin: 3% 0 1% 0;
+
+  background: transparent;
+  /* background: yellow; */
+}
+
+
+
+/* TEXT AREA = INPUT  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+#texto {
+  /* float: left; */
+  flex-basis: 95%;
+
+  width: 80%;
+  height: 340px;
+
+  margin: 0 5% 5% 15%;
+
+  font-size: 30px;
+  line-height: 48px;
+
+  /* color: #c6555e; */
+  text-shadow: #ebebeb 1px 1px 2px;
+  color: #c6555e;
+  /* background: #f78807; */
+
+  background: transparent;
+
+  resize: none;
+  border: none;
+}
+
+#texto:focus {
+  outline: none
+}
+
+#texto::-webkit-input-placeholder {
+  color: #f78807;
+}
+
+
+
+/* BOTONES = ENCRIPTAR / DESENCRIPTAR  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.botones {
+  width: 100%;
+  height: auto;
+
+  background: transparent;
+  /* background: pink; */
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.encriptar {
+  padding: 2%;
+  position: relative;
+
+  width: 30%;
+  height: auto;
+  margin: 0 0 0 14%;
+
+  background: #f78807;
+  border-radius: 100px;
+  border: solid 3px #f78807;
+
+  text-align: center;
+  color: #ffffff;
+
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+}
+
+.encriptar img {
+  position: relative;
+  top: 3px;
+
+  width: 20px;
+  height: 20px;
+}
+
+.encriptar:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.encriptar:active {
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+
+.desencriptar {
+  padding: 2%;
+  position: relative;
+
+  height: auto;
+  margin: 0 0 0 14%;
+
+  width: 30%;
+  background: #ebebeb;
+  border-radius: 100px;
+  border: solid 3px #f78807;
+
+  text-align: center;
+  color: #009db5;
+
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+}
+
+.desencriptar:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.desencriptar:active {
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+
+.desencriptar img {
+  position: relative;
+  top: 3px;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+/*    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  LADO DERECHO  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+#rightBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  float: right;
+
+  position: relative;
+  bottom: 18%;
+  right: 1%;
+
+  width: 30%;
+  height: 96%;
+
+  border-radius: 30px;
+
+  background: #ffffffb6;
+
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.output {
+  width: 95%;
+  height: 95%;
+  background: transparent;
+}
+
+.pictureText {
+  background: transparent;
+}
+
+.picture {
+  width: 99.9%;
+  height: auto;
+
+  margin: 30% 0 3% 2.5%;
+
+  background: transparent;
+}
+
+.picture img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.pictureText h2 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bolder;
+
+  margin: 0 0 0 3%;
+
+  color: #c40c56;
+}
+
+.pictureText p {
+  margin: 20% 3% 0 3%;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bolder;
+
+  color: #2b2b2b;
+}
+
+
+
+/*  TEXT AREA = OUTPUT  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.success textarea {
+  position: relative;
+  /* bottom: 370px; */
+  right: 33px;
+
+  width: 99%;
+  height: 440px;
+
+  flex-basis: 50%;
+  margin: 0 2% 0 15%;
+
+  font-size: 20px;
+  line-height: 40px;
+
+  color: #c6555e;
+
+  text-align: center;
+
+  background: transparent;
+  /* background: violet; */
+
+  resize: none;
+  border: none;
+}
+
+#textoResultado:focus {
+  outline: none;
+}
+
+#textoResultado::-webkit-input-placeholder {
+  color: #f78807;
+}
+
+
+
+/* BOTÓN COPIAR  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+#copiar {
+  position: relative;
+  bottom: -25px;
+  left: 10%;
+
+  width: 60%;
+  height: auto;
+  margin: 0 14% 0 14%;
+
+  padding: 5%;
+  /* padding: 20px; */
+
+  background: #ebebeb;
+  border-radius: 100px;
+  border: 3px solid #f78807;
+
+  color: #2b2b2b;
+
+  visibility: hidden;
+
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+}
+
+#copiar:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+#copiar:active {
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+
+#copiar img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+
+  top: 3px;
+  right: 10px;
+}
+
+
+
+/*    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  FOOTER  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+#footer {
+  position: relative;
+  bottom: -54em;
+  right: 62%;
+
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#footer img {
+  position: relative;
+  top: 3px;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+}
+
+#footer a {
+  color: #f78807;
+  text-decoration: none;
+}
+
+#footer a:active {
+  color: #c40c56;
+}
+
+
+
+/*    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  DARK MODE  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+#darkmode {
+  position: relative;
+  top: 10px;
+  right: 11%;
+
+  float: right;
+
+  width: 60px;
+  height: 30px;
+
+  background: #ebebeb;
+  box-shadow: inset 4px 4px 6px #cecece,
+    inset -4px -4px 6px #fff;
+
+  border-radius: 25px;
+
+  cursor: pointer;
+}
+
+.sun {
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.moon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.toggle {
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 45px;
+  height: 45px;
+
+  transform: scale(.7);
+
+  background: linear-gradient(145deg, #d8d8d8, #FFFFFF);
+
+  border-radius: 25px;
+
+  box-shadow: 2px 2px 2px #c4c4c496,
+    -2px -2px 2px #fff;
+
+  transition: 0.5s;
+}
+
+#darkmode.active .toggle {
+  left: 23px;
+  transition: 0.5s;
+}
+
+body.active {
+  background: #D0E4F5 url("./img/wallpaper-blur-dark.png") repeat;
+}
+
+#container.active {
+  background: #000000 url("./img/wallpaper-dark.png");
+
+  color: #fff;
+}
+
+#texto.active {
+  text-shadow: #2a2a2a 1px 1px 2px;
+}
+
+#rightBox.active {
+  /* background: #2c302c; */
+  background: transparent;
+}
+
+#rightBox.active p {
+  color: #FFFFFF;
+
+  text-shadow: 2px 2px 2px #474747;
+  color: #FFFFFF;
+}
+
+#copyright.active {
+  color: #fff;
+
+  text-shadow: 2px 2px 2px #474747;
+  color: #FFFFFF;
+}
+
+
+
+/*    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  RESPONSIVE  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+
+
+/*  TABLETS hasta 768px  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+@media screen and (max-width:768px) {
+
+  * {
+    height: 1vh;
+
+    padding: 0%;
+    margin: 0%;
+
+    /* background-color: #c40c56; */
+  }
+
+  html,
+  body {
+    overflow: auto;
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  body.active {
+    min-height: 100vh;
+  }
+
+  .container {
+    position: relative;
+
+    width: 100%;
+
+    background: transparent;
+    box-shadow: none;
+  }
+
+  #container.active {
+    background: transparent;
+
+    color: #fff;
+  }
+
+  .logotipo {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 120px;
+
+    /* background: rgba(0, 0, 255, 0.407); */
+  }
+
+  .logo {
+    position: absolute;
+    left: 45%;
+
+    margin: 5% 0 0 0;
+    padding: 0;
+
+    width: 90px;
+    height: 90px;
+
+    transform: scale(1.5);
+
+    /* background: #c40c56; */
+  }
+
+  #darkmode {
+    position: absolute;
+    transform: scale(1.5);
+  }
+
+  .informacion {
+    position: absolute;
+    top: -4em;
+    right: 10%;
+
+    margin: 3% 0 0 0;
+    padding: 0;
+
+    width: 100%;
+    height: 7%;
+
+    transform: scale(2);
+
+    /* background: rgba(0, 128, 0, 0.638); */
+  }
+
+  .informacion img {
+    margin-left: 33%;
+  }
+
+  .leftBox {
+    position: absolute;
+    top: 13em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    /* background: rgba(255, 255, 0, 0.638); */
+  }
+
+  .input {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 50%;
+
+    /* background: rgba(0, 255, 55, 0.412); */
+  }
+
+  #texto {
+    position: absolute;
+
+    padding: 0;
+    margin: 0;
+
+    width: 95%;
+    height: 350px;
+
+    font-size: 50px;
+    line-height: 70px;
+
+    text-align: center;
+
+    border-radius: 25px;
+
+    -webkit-box-shadow: inset 2px 2px 5px 0px #0000002f, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset 2px 2px 15px 10px #0000002f, 2px 2px 15px 10px rgba(0, 0, 0, 0);
+
+    /* background: rgba(51, 0, 255, 0.412); */
+  }
+
+  .botones {
+    position: absolute;
+    top: 20em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 8% 0 0 0;
+    padding: 0;
+
+    width: 95%;
+    height: auto;
+
+    /* background: pink; */
+  }
+
+  #encripta {
+    width: 50%;
+    height: 100px;
+
+    font-size: 25px;
+
+    margin: 0 10% 0 0;
+    padding: 0;
+  }
+
+  #encripta img {
+    margin-right: 3%;
+    transform: scale(1.9);
+  }
+
+  #desencripta {
+    width: 50%;
+    height: 100px;
+
+    font-size: 25px;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  #desencripta img {
+    margin-right: 3%;
+    transform: scale(1.9);
+  }
+
+  #rightBox {
+    position: absolute;
+    top: 45em;
+    left: 2.5%;
+
+    margin: 0;
+    padding: 0;
+
+    width: 95%;
+    height: 23em;
+
+    /* background: rgba(111, 255, 0, 0.638); */
+  }
+
+  .picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 75px;
+    height: 75px;
+
+    background: #c40c56;
+
+    visibility: hidden;
+  }
+
+  .pictureText h2 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 50px;
+
+    width: 100%;
+    height: auto;
+
+    /* background: rgba(17, 0, 128, 0.638); */
+  }
+
+  .pictureText p {
+    margin: 5% 0 0 3%;
+    padding: 0;
+
+    font-size: 30px;
+
+    width: 100%;
+    height: auto;
+
+    /* background: rgba(17, 0, 128, 0.638); */
+  }
+
+  #textoResultado {
+    position: relative;
+    left: 3%;
+
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+    height: 12em;
+
+    font-size: 30px;
+    line-height: 55px;
+
+    text-align: center;
+
+    /* background: rgba(0, 255, 251, 0.412); */
+  }
+
+  #copiar {
+    position: absolute;
+    top: 11em;
+    left: 5%;
+
+    margin: 0;
+    padding: 0;
+
+    width: 90%;
+    height: 80px;
+
+    font-size: 25px;
+
+    visibility: hidden;
+  }
+
+  #copiar img {
+    transform: scale(2)
+  }
+
+  #footer {
+    position: relative;
+    top: 50em;
+    left: 15%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+
+    font-size: 20px;
+
+    /* background: #c40c56; */
+  }
+
+  #footer img {
+    transform: scale(1.5);
+  }
+}
+
+
+
+/*  CELULARES hasta 375px  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+@media screen and (max-width:375px) {
+
+  * {
+    height: 1vh;
+
+    padding: 0%;
+    margin: 0%;
+
+    /* background-color: #c40c56; */
+  }
+
+  html,  body {
+    overflow: auto;
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  body.active {
+    min-height: 100vh;
+  }
+
+  .container {
+    position: relative;
+
+    width: 100%;
+
+    background: transparent;
+    box-shadow: none;
+  }
+
+  #container.active {
+    background: transparent;
+
+    color: #fff;
+  }
+
+  .logotipo {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 120px;
+
+    /* background: rgba(0, 0, 255, 0.407); */
+  }
+
+  .logo {
+    position: absolute;
+    left: 45%;
+
+    margin: 5% 0 0 0;
+    padding: 0;
+
+    width: 90px;
+    height: 90px;
+
+    transform: scale(1);
+
+    /* background: #c40c56; */
+  }
+
+  #darkmode {
+    position: absolute;
+    transform: scale(1.2);
+  }
+
+  .informacion {
+    position: absolute;
+    top: -3em;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 5%;
+
+    transform: scale(1.2);
+
+    /* background: rgba(0, 128, 0, 0.638); */
+  }
+
+  .informacion img {
+    margin-left: 20%;
+  }
+
+  .leftBox {
+    position: absolute;
+    top: 10em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 60%;
+
+    /* background: rgba(255, 255, 0, 0.638); */
+  }
+
+  .input {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 50%;
+
+    /* background: rgba(0, 255, 55, 0.412); */
+  }
+
+  #texto {
+    position: absolute;
+    /* flex-basis: 95%; */
+
+    padding: 0;
+    margin: 0;
+
+    width: 95%;
+    height: 250px;
+
+    font-size: 35px;
+    line-height: 45px;
+
+    text-align: center;
+
+    border-radius: 25px;
+
+    -webkit-box-shadow: inset 2px 2px 5px 0px #0000002f, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset 2px 2px 15px 10px #0000002f, 2px 2px 15px 10px rgba(0, 0, 0, 0);
+
+    /* background: rgba(51, 0, 255, 0.412); */
+  }
+
+  .botones {
+    position: absolute;
+    top: 16.3em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 95%;
+    height: auto;
+
+    /* background: pink; */
+  }
+
+  #encripta {
+    position: relative;
+    left: 5%;
+
+    width: 95%;
+    height: 70px;
+
+    font-size: 20px;
+
+    margin: 0 10% 0 0;
+    padding: 0;
+  }
+
+  #encripta img {
+    margin-right: 3%;
+    transform: scale(1.2);
+  }
+
+  #desencripta {
+    width: 95%;
+    height: 70px;
+
+    font-size: 20px;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  #desencripta img {
+    margin-right: 3%;
+    transform: scale(1.2);
+  }
+
+  #rightBox {
+    position: absolute;
+    top: 36em;
+    left: 2.7%;
+
+    margin: 0;
+    padding: 0;
+
+    width: 95%;
+    height: 18em;
+
+    /* background: rgba(111, 255, 0, 0.638); */
+  }
+
+  .picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 75px;
+    height: 75px;
+
+    background: #c40c56;
+
+    visibility: hidden;
+  }
+
+  .pictureText h2 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 30px;
+
+    width: 100%;
+    height: auto;
+
+    /* background: rgba(17, 0, 128, 0.638); */
+  }
+
+  .pictureText p {
+    margin: 5% 0 0 3%;
+    padding: 0;
+
+    font-size: 18px;
+
+    width: 100%;
+    height: auto;
+
+    /* background: rgba(17, 0, 128, 0.638); */
+  }
+
+  #textoResultado {
+    position: relative;
+    left: 3%;
+
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+    height: 6em;
+
+    font-size: 30px;
+    line-height: 55px;
+
+    text-align: center;
+
+    /* background: rgba(0, 255, 251, 0.412); */
+  }
+
+  #copiar {
+    position: absolute;
+    top: 10em;
+    left: 2.5%;
+
+    width: 95%;
+    height: 70px;
+
+    font-size: 20px;
+
+    margin: 0;
+    padding: 0;
+
+    visibility: hidden;
+  }
+
+  #copiar img {
+    transform: scale(1.2)
+  }
+
+  #footer {
+    position: relative;
+    top: 48em;
+    left: 0%;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+
+    font-size: 16px;
+
+    /* background: #c40c56; */
+  }
+
+  #footer img {
+    transform: scale(1.3);
+  }
+}
