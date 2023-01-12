@@ -15,9 +15,9 @@
 <h2>⚙️ Tecnologías utilizadas</h2>
 
 
-![html5](https://cdn-icons-png.flaticon.com/512/174/174854.png) 
-![css3](https://cdn-icons-png.flaticon.com/512/732/732190.png)
-![js](https://cdn-icons-png.flaticon.com/512/5968/5968292.png)
+![html5](https://ibb.co/v48tPd4) 
+![css3](https://ibb.co/0nQWtBx)
+![js](https://ibb.co/m0WgHhx)
 
 <br>
 
