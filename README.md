@@ -16,7 +16,7 @@
 
 ![html5](/img/html5.png) 
 ![css3](/img/css-3.png)
-![js](/img/js.png)
+![js](https://cdn-icons-png.flaticon.com/512/5968/5968292.png)
 
 <br>
 
