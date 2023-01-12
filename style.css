@@ -539,6 +539,7 @@ body.active {
 
   body {
     min-height: 100vh;
+    text-align: center;
   }
 
   body.active {
@@ -546,9 +547,10 @@ body.active {
   }
 
   .container {
-    position: relative;
-
     width: 100%;
+
+    margin: 0px auto;
+    text-align: center;
 
     background: transparent;
     box-shadow: none;
@@ -556,12 +558,15 @@ body.active {
 
   #container.active {
     background: transparent;
+    text-align: center;
 
     color: #fff;
   }
 
   .logotipo {
-    margin: 0;
+    text-align: center;
+
+    margin: 0px auto;
     padding: 0;
 
     width: 100%;
@@ -571,43 +576,42 @@ body.active {
   }
 
   .logo {
-    position: absolute;
-    left: 45%;
-
-    margin: 5% 0 0 0;
+    margin: 5% auto;
     padding: 0;
 
     width: 90px;
     height: 90px;
 
-    transform: scale(1.5);
+    transform: scale(1.2);
 
     /* background: #c40c56; */
   }
 
   #darkmode {
     position: absolute;
-    transform: scale(1.5);
+    transform: scale(1.1);
+  }
+
+  #darkmode .sun{
+    position: absolute;
+    right: 1.8em;
   }
 
   .informacion {
-    position: absolute;
+    position: relative;
     top: -4em;
-    right: 10%;
 
-    margin: 3% 0 0 0;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0px auto;
 
     width: 100%;
-    height: 7%;
-
-    transform: scale(2);
+    height: auto;
 
     /* background: rgba(0, 128, 0, 0.638); */
   }
 
-  .informacion img {
-    margin-left: 33%;
+  .informacion #info{
+    font-size: 20px;
   }
 
   .leftBox {
@@ -618,7 +622,8 @@ body.active {
     flex-direction: column;
     align-items: center;
 
-    margin: 0;
+    text-align: center;
+    margin: 0px auto;
     padding: 0;
 
     width: 100%;
@@ -634,11 +639,12 @@ body.active {
     flex-direction: column;
     align-items: center;
 
-    margin: 0;
+    text-align: center;
+    margin: 0px auto;
     padding: 0;
 
     width: 100%;
-    height: 50%;
+    height: 30%;
 
     /* background: rgba(0, 255, 55, 0.412); */
   }
@@ -646,8 +652,8 @@ body.active {
   #texto {
     position: absolute;
 
+    margin: 0px auto;
     padding: 0;
-    margin: 0;
 
     width: 95%;
     height: 350px;
@@ -669,11 +675,11 @@ body.active {
     position: absolute;
     top: 20em;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display:flex;
+    justify-content: space-between;
 
-    margin: 8% 0 0 0;
+    text-align: center;
+    margin: 8% auto;
     padding: 0;
 
     width: 95%;
@@ -688,7 +694,7 @@ body.active {
 
     font-size: 25px;
 
-    margin: 0 10% 0 0;
+    margin: 0 10px 0 0;
     padding: 0;
   }
 
@@ -697,13 +703,17 @@ body.active {
     transform: scale(1.9);
   }
 
+  #encripta:hover {
+    transform: scale(0.9);
+  }
+
   #desencripta {
     width: 50%;
     height: 100px;
 
     font-size: 25px;
 
-    margin: 0;
+    margin: 0 0 0 10px;
     padding: 0;
   }
 
@@ -712,16 +722,21 @@ body.active {
     transform: scale(1.9);
   }
 
+  #desencripta:hover {
+    transform: scale(0.9);
+  }
+
   #rightBox {
     position: absolute;
     top: 45em;
-    left: 2.5%;
 
-    margin: 0;
+    text-align: center;
+
+    margin: 0px auto;
     padding: 0;
 
     width: 95%;
-    height: 23em;
+    height: 350px;
 
     /* background: rgba(111, 255, 0, 0.638); */
   }
@@ -731,7 +746,8 @@ body.active {
     flex-direction: column;
     align-items: center;
 
-    margin: 0;
+    text-align: center;
+    margin: 0px auto;
     padding: 0;
 
     width: 75px;
@@ -743,7 +759,7 @@ body.active {
   }
 
   .pictureText h2 {
-    margin: 0;
+    margin: 0px auto;
     padding: 0;
 
     font-size: 50px;
@@ -755,41 +771,43 @@ body.active {
   }
 
   .pictureText p {
-    margin: 5% 0 0 3%;
+    margin: 3% auto;
     padding: 0;
 
     font-size: 30px;
 
-    width: 100%;
+    width: 90%;
     height: auto;
 
     /* background: rgba(17, 0, 128, 0.638); */
   }
 
   #textoResultado {
-    position: relative;
-    left: 3%;
-
+    margin: 0 0 0 7%;
     padding: 0;
-    margin: 0;
 
     width: 100%;
-    height: 12em;
+    height: 7em;
 
     font-size: 30px;
-    line-height: 55px;
+    line-height: 45px;
 
     text-align: center;
 
-    /* background: rgba(0, 255, 251, 0.412); */
+    /* background: rgba(255, 0, 0, 0.412); */
+  }
+
+  #resuelto{
+    text-align: center;
   }
 
   #copiar {
     position: absolute;
-    top: 11em;
+    top: 10em;
     left: 5%;
 
-    margin: 0;
+
+    margin: 0px auto;
     padding: 0;
 
     width: 90%;
@@ -804,27 +822,32 @@ body.active {
     transform: scale(2)
   }
 
+  #copiar:hover {
+    transform: scale(0.9);
+  }
+
   #footer {
-    position: relative;
-    top: 50em;
-    left: 15%;
+    position: absolute;
+    top: 48em;
+    left: 0%;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    margin: 0;
+    text-align: center;
+    margin: 0px auto;
     padding: 0;
 
     width: 100%;
 
-    font-size: 20px;
+    font-size: 23px;
 
     /* background: #c40c56; */
   }
 
   #footer img {
-    transform: scale(1.5);
+    position: relative;
+    top: -0.1em;
+
+    margin: 0 1% 0 2%;
+    transform: scale(2);
   }
 }
 
@@ -842,35 +865,43 @@ body.active {
     /* background-color: #c40c56; */
   }
 
-  html,  body {
+  html,
+  body {
     overflow: auto;
   }
 
   body {
     min-height: 100vh;
+    text-align: center;
   }
 
   body.active {
     min-height: 100vh;
+    text-align: center;
   }
 
   .container {
-    position: relative;
-
     width: 100%;
+
+    margin: 0px auto;
+    text-align: center;
 
     background: transparent;
     box-shadow: none;
   }
 
+
   #container.active {
     background: transparent;
+    text-align: center;
 
     color: #fff;
   }
 
   .logotipo {
-    margin: 0;
+    text-align: center;
+
+    margin: 0px auto;
     padding: 0;
 
     width: 100%;
@@ -880,57 +911,58 @@ body.active {
   }
 
   .logo {
-    position: absolute;
-    left: 45%;
-
-    margin: 5% 0 0 0;
+    margin: 5% auto;
     padding: 0;
 
     width: 90px;
     height: 90px;
 
-    transform: scale(1);
+    transform: scale(1.2);
 
     /* background: #c40c56; */
   }
 
   #darkmode {
     position: absolute;
-    transform: scale(1.2);
+    transform: scale(1);
+  }
+
+  #darkmode .sun {
+    position: absolute;
+    right: 1.8em;
   }
 
   .informacion {
-    position: absolute;
-    top: -3em;
+    position: relative;
+    top: -1em;
 
-    margin: 0;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0px auto;
 
     width: 100%;
-    height: 5%;
-
-    transform: scale(1.2);
+    height: auto;
 
     /* background: rgba(0, 128, 0, 0.638); */
   }
 
-  .informacion img {
-    margin-left: 20%;
+  .informacion #info {
+    font-size: 13.5px;
   }
 
   .leftBox {
     position: absolute;
-    top: 10em;
+    top: 8em;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    margin: 0;
+    text-align: center;
+    margin: 0px auto;
     padding: 0;
 
     width: 100%;
-    height: 60%;
+    height: 350px;
 
     /* background: rgba(255, 255, 0, 0.638); */
   }
@@ -942,27 +974,27 @@ body.active {
     flex-direction: column;
     align-items: center;
 
-    margin: 0;
+    text-align: center;
+    margin: 0px auto;
     padding: 0;
 
     width: 100%;
-    height: 50%;
+    height: 30%;
 
     /* background: rgba(0, 255, 55, 0.412); */
   }
 
   #texto {
     position: absolute;
-    /* flex-basis: 95%; */
 
+    margin: 4% auto;
     padding: 0;
-    margin: 0;
 
     width: 95%;
-    height: 250px;
+    height: 300px;
 
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 25px;
+    line-height: 35px;
 
     text-align: center;
 
@@ -976,13 +1008,14 @@ body.active {
 
   .botones {
     position: absolute;
-    top: 16.3em;
+    top: 20em;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    margin: 0;
+    text-align: center;
+    margin: 0 auto;
     padding: 0;
 
     width: 95%;
@@ -1009,13 +1042,17 @@ body.active {
     transform: scale(1.2);
   }
 
+  #encripta:hover {
+    transform: scale(0.9);
+  }
+
   #desencripta {
     width: 95%;
     height: 70px;
 
     font-size: 20px;
 
-    margin: 0;
+    margin: 2% 0 0 0;
     padding: 0;
   }
 
@@ -1024,16 +1061,21 @@ body.active {
     transform: scale(1.2);
   }
 
+  #desencripta:hover {
+    transform: scale(0.9);
+  }
+
   #rightBox {
     position: absolute;
-    top: 36em;
-    left: 2.7%;
+    top: 37.5em;
 
-    margin: 0;
+    text-align: center;
+
+    margin: 0px auto;
     padding: 0;
 
     width: 95%;
-    height: 18em;
+    height: 300px;
 
     /* background: rgba(111, 255, 0, 0.638); */
   }
@@ -1043,7 +1085,8 @@ body.active {
     flex-direction: column;
     align-items: center;
 
-    margin: 0;
+    text-align: center;
+    margin: 0px auto;
     padding: 0;
 
     width: 75px;
@@ -1055,10 +1098,10 @@ body.active {
   }
 
   .pictureText h2 {
-    margin: 0;
+    margin: 0px auto;
     padding: 0;
 
-    font-size: 30px;
+    font-size: 28px;
 
     width: 100%;
     height: auto;
@@ -1067,47 +1110,49 @@ body.active {
   }
 
   .pictureText p {
-    margin: 5% 0 0 3%;
+    margin: 3% auto;
     padding: 0;
 
-    font-size: 18px;
+    font-size: 15px;
 
-    width: 100%;
+    width: 90%;
     height: auto;
 
     /* background: rgba(17, 0, 128, 0.638); */
   }
 
   #textoResultado {
-    position: relative;
-    left: 3%;
-
+    margin: 0 0 0 12.5%;
     padding: 0;
-    margin: 0;
 
     width: 100%;
-    height: 6em;
+    height: 6.5em;
 
     font-size: 30px;
-    line-height: 55px;
+    line-height: 45px;
 
     text-align: center;
 
-    /* background: rgba(0, 255, 251, 0.412); */
+    /* background: rgba(255, 0, 0, 0.412); */
+  }
+
+  #resuelto {
+    text-align: center;
   }
 
   #copiar {
     position: absolute;
-    top: 10em;
-    left: 2.5%;
+    top: 10.5em;
+    left: 5%;
 
-    width: 95%;
-    height: 70px;
+
+    margin: 0px auto;
+    padding: 0;
+
+    width: 90%;
+    height: 80px;
 
     font-size: 20px;
-
-    margin: 0;
-    padding: 0;
 
     visibility: hidden;
   }
@@ -1116,22 +1161,31 @@ body.active {
     transform: scale(1.2)
   }
 
+  #copiar:hover {
+    transform: scale(0.9);
+  }
+
   #footer {
-    position: relative;
-    top: 48em;
+    position: absolute;
+    top: 65em;
     left: 0%;
 
-    margin: 0;
+    text-align: center;
+    margin: 0px auto;
     padding: 0;
 
     width: 100%;
 
-    font-size: 16px;
+    font-size: 14px;
 
     /* background: #c40c56; */
   }
 
   #footer img {
-    transform: scale(1.3);
+    position: relative;
+    top: 0.1em;
+
+    margin: 0 1% 0 2%;
+    transform: scale(1.5);
   }
 }
