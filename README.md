@@ -12,11 +12,7 @@
 - El resultado se muestra en la pantalla.
 - Posée un botón que copia el texto encriptado/desencriptado para la sección de transferencia, teniendo la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
-<h2>⚙️ Tecnologías utilizadas</h2>
-
-![html5](/img/html5.png) 
-![css3](/img/css-3.png)
-![js](/img/js.png)
+<h2>⚙️ Tecnologías utilizadas: ![html5](/img/html5.png) ![css3](/img/css-3.png) ![js](/img/js.png)</h2>
 
 <br>
 
