@@ -1,8 +1,8 @@
 #portafolio
-2  
-3  Visualiza mi<a href="https://github.com/truquinio/alura-challenge-1-Encriptador"> repositorio</a>
 
-  Visualiza mi<a href="https://truquinio.github.io/alura-challenge-1-Encriptador/"> encriptador</a>
+Visualiza mi<a href="https://github.com/truquinio/alura-challenge-1-Encriptador"> repositorio</a>
+
+Visualiza mi<a href="https://truquinio.github.io/alura-challenge-1-Encriptador/"> encriptador</a>
 
 Aplicación que encripta textos, para intercambiar mensajes secretos con otras personas que sepan el código utilizado.
 
