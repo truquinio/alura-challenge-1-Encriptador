@@ -14,10 +14,9 @@
 
 <h2>⚙️ Tecnologías utilizadas</h2>
 
-
-![html5](https://ibb.co/v48tPd4) 
-![css3](https://ibb.co/0nQWtBx)
-![js](https://ibb.co/m0WgHhx)
+![html5](/img/html5.png) 
+![css3](/img/css-3.png)
+![js](/img/js.png)
 
 <br>
 
