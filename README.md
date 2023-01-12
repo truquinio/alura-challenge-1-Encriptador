@@ -14,13 +14,10 @@
 
 <h2>⚙️ Tecnologías utilizadas</h2>
 
-<style>
-  width: 24px;
-  height: 24px;
+
 ![html5](https://cdn-icons-png.flaticon.com/512/174/174854.png) 
 ![css3](https://cdn-icons-png.flaticon.com/512/732/732190.png)
 ![js](https://cdn-icons-png.flaticon.com/512/5968/5968292.png)
-</style>
 
 <br>
 
