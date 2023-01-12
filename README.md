@@ -1,8 +1,10 @@
 #portafolio
 
-Visualiza mi<a href="https://github.com/truquinio/alura-challenge-1-Encriptador"> repositorio</a>
+Visita mi<a href="https://github.com/truquinio/alura-challenge-1-Encriptador"> repositorio</a>
 
-Visualiza mi<a href="https://truquinio.github.io/alura-challenge-1-Encriptador/"> encriptador</a>
+Visita mi<a href="https://truquinio.github.io/alura-challenge-1-Encriptador/"> encriptador</a>
+
+Mi perfil de<a href="[https://truquinio.github.io/alura-challenge-1-Encriptador/](https://www.linkedin.com/in/federico-trucco/)"> LinkedIn</a>
 
 Aplicación que encripta textos, para intercambiar mensajes secretos con otras personas que sepan el código utilizado.
 
