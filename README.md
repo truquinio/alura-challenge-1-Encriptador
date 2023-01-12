@@ -14,7 +14,9 @@
 
 <h2>⚙️ Tecnologías utilizadas</h2>
 
-![html5](/img/html5.png)! [css3](/img/css-3.png) ![js](/img/js.png)
+![html5](/img/html5.png) 
+![css3](/img/css-3.png)
+![js](/img/js.png)
 
 <br>
 
