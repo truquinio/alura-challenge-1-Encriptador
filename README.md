@@ -4,16 +4,13 @@
 	<tbody>
 		<tr>
 			<td>• Visita mi <a href="https://github.com/truquinio/alura-challenge-1-Encriptador">repositorio</a> 🗃</td>
-			<td rowspan="3">
-      <td>![html5](/cms_files_10224_1671210503Prancheta_3.png)</td>
+			<td rowspan="3">![html5](/cms_files_10224_1671210503Prancheta_3.png)</td>
 		</tr>
 		<tr>
 			<td>• Ir al <a href="https://truquinio.github.io/alura-challenge-1-Encriptador/">encriptador</a> 🔗</td>
-			<td>Cell 2x2</td>
 		</tr>
 		<tr>
 			<td>• Mi perfil de <a href="https://www.linkedin.com/in/federico-trucco/">LinkedIn</a> 🪪</td>
-			<td>Cell 2x3</td>
 		</tr>
 	</tbody>
 </table>
