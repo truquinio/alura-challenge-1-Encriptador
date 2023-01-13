@@ -397,7 +397,7 @@ body {
 #footer {
   position: relative;
   bottom: -54em;
-  right: 62%;
+  right: 50%;
 
   font-size: 12px;
   font-weight: bold;
@@ -520,8 +520,8 @@ body.active {
 /*    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  RESPONSIVE  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
 
 
-/*  TABLETS hasta 768px  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
-@media screen and (max-width:768px) {
+/*  TABLETS hasta 912px  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+@media screen and (max-width: 912px) and (min-width:393px) {
 
   * {
     height: 1vh;
@@ -589,6 +589,7 @@ body.active {
 
   #darkmode {
     position: absolute;
+    right: 1em;
     transform: scale(1.1);
   }
 
@@ -658,7 +659,7 @@ body.active {
     width: 95%;
     height: 350px;
 
-    font-size: 50px;
+    font-size: 35px;
     line-height: 70px;
 
     text-align: center;
@@ -692,7 +693,7 @@ body.active {
     width: 50%;
     height: 100px;
 
-    font-size: 25px;
+    font-size: 20px;
 
     margin: 0 10px 0 0;
     padding: 0;
@@ -700,7 +701,7 @@ body.active {
 
   #encripta img {
     margin-right: 3%;
-    transform: scale(1.9);
+    transform: scale(1.8);
   }
 
   #encripta:hover {
@@ -711,7 +712,7 @@ body.active {
     width: 50%;
     height: 100px;
 
-    font-size: 25px;
+    font-size: 20px;
 
     margin: 0 0 0 10px;
     padding: 0;
@@ -719,7 +720,7 @@ body.active {
 
   #desencripta img {
     margin-right: 3%;
-    transform: scale(1.9);
+    transform: scale(1.8);
   }
 
   #desencripta:hover {
@@ -762,7 +763,7 @@ body.active {
     margin: 0px auto;
     padding: 0;
 
-    font-size: 50px;
+    font-size: 40px;
 
     width: 100%;
     height: auto;
@@ -774,7 +775,7 @@ body.active {
     margin: 3% auto;
     padding: 0;
 
-    font-size: 30px;
+    font-size: 20px;
 
     width: 90%;
     height: auto;
@@ -803,7 +804,7 @@ body.active {
 
   #copiar {
     position: absolute;
-    top: 10em;
+    top: 13em;
     left: 5%;
 
 
@@ -813,13 +814,13 @@ body.active {
     width: 90%;
     height: 80px;
 
-    font-size: 25px;
+    font-size: 20px;
 
     visibility: hidden;
   }
 
   #copiar img {
-    transform: scale(2)
+    transform: scale(1.8)
   }
 
   #copiar:hover {
@@ -828,7 +829,7 @@ body.active {
 
   #footer {
     position: absolute;
-    top: 48em;
+    top: 65em;
     left: 0%;
 
     text-align: center;
@@ -837,7 +838,7 @@ body.active {
 
     width: 100%;
 
-    font-size: 23px;
+    font-size: 17px;
 
     /* background: #c40c56; */
   }
@@ -853,8 +854,11 @@ body.active {
 
 
 
-/*  CELULARES hasta 375px  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
-@media screen and (max-width:375px) {
+/*  CELULARES hasta 394px  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+/* @media screen and (max-width:394px) { */
+
+  @media screen and (max-width: 393px) and (min-width:100px) {
+
 
   * {
     height: 1vh;
@@ -924,6 +928,7 @@ body.active {
 
   #darkmode {
     position: absolute;
+    right: -0em;
     transform: scale(1);
   }
 
@@ -1142,15 +1147,14 @@ body.active {
 
   #copiar {
     position: absolute;
-    top: 10.5em;
+    top: 11em;
     left: 5%;
-
 
     margin: 0px auto;
     padding: 0;
 
     width: 90%;
-    height: 80px;
+    height: 65px;
 
     font-size: 20px;
 
@@ -1167,7 +1171,7 @@ body.active {
 
   #footer {
     position: absolute;
-    top: 65em;
+    top: 70em;
     left: 0%;
 
     text-align: center;
@@ -1176,7 +1180,7 @@ body.active {
 
     width: 100%;
 
-    font-size: 14px;
+    font-size: 13px;
 
     /* background: #c40c56; */
   }

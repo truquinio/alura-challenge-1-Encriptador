@@ -19,48 +19,46 @@ const btnEncriptar = document.querySelector("#encripta");
 const btnDesencriptar = document.querySelector("#desencripta");
 const btnCopiar = document.querySelector("#copiar");
 
-function encriptar (){
-  let texto = textoIngresado.value.toLowerCase();
-  let textoEncriptado = texto
-  .replaceAll("e", "enter")
-  .replaceAll("i", "imes")
-  .replaceAll("o", "ober")
-  .replaceAll("a", "ai")
-  .replaceAll("u", "ufat");
+  function encriptar() {
+    let texto = textoIngresado.value.toLowerCase();
+    let textoEncriptado = texto
+      .replaceAll("e", "enter")
+      .replaceAll("i", "imes")
+      .replaceAll("o", "ober")
+      .replaceAll("a", "ai")
+      .replaceAll("u", "ufat");
 
-  document.getElementById("noResuelto").style.visibility = "hidden";
-  document.getElementById("copiar").style.visibility = "visible";
+    document.getElementById("noResuelto").style.visibility = "hidden";
+    document.getElementById("copiar").style.visibility = "visible";
 
-  textoResultado.value = textoEncriptado;
+    textoResultado.value = textoEncriptado;
 
-  document.getElementById("texto").value = '';
+    document.getElementById("texto").value = '';
+  }
 
-}
+  function desencriptar() {
+    let textoEncriptado = textoIngresado.value.toLowerCase();
+    let texto = textoEncriptado
+      .replaceAll("enter", "e")
+      .replaceAll("imes", "i")
+      .replaceAll("ober", "o")
+      .replaceAll("ai", "a")
+      .replaceAll("ufat", "u");
 
-function desencriptar (){
-  let textoEncriptado = textoIngresado.value.toLowerCase();
-  let texto = textoEncriptado
-  .replaceAll("enter", "e")
-  .replaceAll("imes", "i")
-  .replaceAll("ober", "o")
-  .replaceAll("ai", "a")
-  .replaceAll("ufat", "u");
+    document.getElementById("noResuelto").style.visibility = "hidden";
+    document.getElementById("copiar").style.visibility = "visible";
 
-  document.getElementById("noResuelto").style.visibility = "hidden";
-  document.getElementById("copiar").style.visibility = "visible";
+    textoResultado.value = texto;
 
-  textoResultado.value = texto;
+    document.getElementById("texto").value = '';
 
-  document.getElementById("texto").value = '';
+  }
 
-}
+  function copiar() {
+    let textoEncriptado = textoResultado.value;
+    navigator.clipboard.writeText(textoEncriptado);
+  }
 
-function copiar () {
-  let textoEncriptado = textoResultado.value;
-  navigator.clipboard.writeText(textoEncriptado);
-}
-
-btnEncriptar.onclick = encriptar;
-btnDesencriptar.onclick = desencriptar;
-
-btnCopiar.onclick = copiar;
+  btnEncriptar.onclick = encriptar;
+  btnDesencriptar.onclick = desencriptar;
+  btnCopiar.onclick = copiar;
