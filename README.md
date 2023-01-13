@@ -1,31 +1,4 @@
 <h1>#Encriptador de Textos</h1>
-<style>
-	table {
-  text-align: left;
-  border-collapse: collapse;
-}
-table td, table th {
-  padding: 5px 5px;
-}
-
-</style>
-
-<table>
-	<tbody>
-		<tr>
-			<td>• Visita mi <a href="https://github.com/truquinio/alura-challenge-1-Encriptador">repositorio</a> 🗃</td>
-			<td rowspan="3">![insignia](/cms_files_10224_1671210503Prancheta_3.png")></td>
-		</tr>
-		<tr>
-			<td>• Ir al <a href="https://truquinio.github.io/alura-challenge-1-Encriptador/">encriptador</a> 🔗</td>
-		</tr>
-		<tr>
-			<td>• Mi perfil de <a href="https://www.linkedin.com/in/federico-trucco/">LinkedIn</a> 🪪</td>
-		</tr>
-	</tbody>
-</table>
-
-
 
 • Visita mi <a href="https://github.com/truquinio/alura-challenge-1-Encriptador">repositorio</a> 🗃
 
