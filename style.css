@@ -855,10 +855,7 @@ body.active {
 
 
 /*  CELULARES hasta 394px  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
-/* @media screen and (max-width:394px) { */
-
   @media screen and (max-width: 393px) and (min-width:100px) {
-
 
   * {
     height: 1vh;
