@@ -32,7 +32,6 @@
 
 <b>Federico Trucco</b> | @truquinio 
 
-<a href="https://www.linkedin.com/in/federico-trucco/">
+<a href="https://www.linkedin.com/in/federico-trucco/"><img src="./img/linkedin.png"></a>
 
 ![linkedin](/img/linkedin.png) 
-</a>
