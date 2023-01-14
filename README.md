@@ -28,8 +28,8 @@
 ![light mode](/Encriptador%20%231.png)
 ![dark mode](/Encriptador%20%232.png)
 
-<h2>🎞 Autor: </h2>
+<h2>👨🏻‍💻 Autor: </h2>
 
-<b>Federico Trucco</b> | @truquinio !
+<b>Federico Trucco</b> | @truquinio 
 
-[js](/img/linkedin.png)
+![linkedin](/img/linkedin.png)
